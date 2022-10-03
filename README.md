@@ -6,7 +6,7 @@ This project uses graph algorithms to understand the difference in social networ
 
 ## Deliverables 
 
-- [Written report](https://github-dev.cs.illinois.edu/cs225-fa21/cbrunner-ethanbg2-jasonoh3-aorals2/blob/main/project-info/report.md)
+- [Written report](https://github.com/jasonoh3/conspiracy-data-structure/blob/main/project-info/report.md)
 - [Presentation](https://drive.google.com/file/d/1LJ5d06L81Ign9cu7c3R4uJWQfOx66O0k/view?usp=sharing) and [slides](https://www.canva.com/design/DAEyQ_CjX8o/vWUifHGMLb1em26csozz4Q/view?utm_content=DAEyQ_CjX8o&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 
 ## Project Structure
