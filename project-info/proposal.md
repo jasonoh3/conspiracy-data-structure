@@ -13,10 +13,10 @@ We will then use Dijkstra's algorithm to find the shortest __weighted__ (weights
 
 For this project, we will be using [The WICO Graph Dataset](https://datasets.simula.no/wico-graph/). In this dataset, nodes are users, and edges are follower connections between users. The dataset was collected from Twitter and contained 3000 subgraphs of Tweets manually classified as 5G-Corona Conspiracy, Other Conspiracy, and Non-Conspiracy. Each subgraph is associated with a specific source tweet and all of the retweeters of the source tweet. There is also user information, such as the number of friends and followers and the time difference from the source tweet. We will process the data to best support our project goals using __Python__ and __Pandas__ and store the dataset as a __CSV file__. We will drop missing data using these tools before importing it into our graph data structure. If there are uncorrectable errors in the dataset, we will also drop that specific piece of data. We will also add weights to the edges in Pandas for Dijkstra's algorithm.  
 
-To fully understand the dataset, we read the [paper](https://github-dev.cs.illinois.edu/cs225-fa21/cbrunner-ethanbg2-jasonoh3-aorals2/blob/main/data/dataset_info/Wico_Graph_Scroeder.pdf) and created a [notes summary](https://github-dev.cs.illinois.edu/cs225-fa21/cbrunner-ethanbg2-jasonoh3-aorals2/blob/main/data/dataset_info/data_set_notes.md).
+To fully understand the dataset, we read the [paper](https://github.com/jasonoh3/conspiracy-data-structure/blob/main/data/dataset_info/Wico_Graph_Scroeder.pdf) and created a [notes summary](https://github.com/jasonoh3/conspiracy-data-structure/blob/main/data/dataset_info/data_set_notes.md).
 
 ### Example Conspriacy Subgraph
-![](https://github-dev.cs.illinois.edu/cs225-fa21/cbrunner-ethanbg2-jasonoh3-aorals2/blob/main/data/wico-graph/Other_Graphs/20/plot.png)
+![](https://github.com/jasonoh3/conspiracy-data-structure/blob/main/data/wico-graph/Other_Graphs/20/plot.png)
 
 ## Graph Algorithms
 
