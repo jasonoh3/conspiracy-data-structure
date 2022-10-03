@@ -1,17 +1,17 @@
 # Written Report
 
 ## Goals
-_The full project proposal can be found [here](https://github-dev.cs.illinois.edu/cs225-fa21/cbrunner-ethanbg2-jasonoh3-aorals2/blob/main/project-info/proposal.md)._
+_The full project proposal can be found [here](https://github.com/jasonoh3/conspiracy-data-structure/blob/main/project-info/proposal.md)._
 ## Development
-_The full development log (committed once a week throughout the project) can be found [here](https://github-dev.cs.illinois.edu/cs225-fa21/cbrunner-ethanbg2-jasonoh3-aorals2/blob/main/project-info/weekly_notes.md)._
+_The full development log (committed once a week throughout the project) can be found [here](https://github.com/jasonoh3/conspiracy-data-structure/blob/main/project-info/weekly_notes.md)._
 ## Results
 ### Proof Of Completion/Correctness
 #### Test Suite
-We wrote a comprehensive [test suite](https://github-dev.cs.illinois.edu/cs225-fa21/cbrunner-ethanbg2-jasonoh3-aorals2/tree/main/tests) that tested each of our algorithms, including any and all edge cases. A summary of our test suite can be found [here](https://github-dev.cs.illinois.edu/cs225-fa21/cbrunner-ethanbg2-jasonoh3-aorals2#test-strategy). Based on this test suite, we know that our algorithms work as intended because we passed all of our tests. 
+We wrote a comprehensive [test suite](https://github.com/jasonoh3/conspiracy-data-structure/tree/main/tests) that tested each of our algorithms, including any and all edge cases. A summary of our test suite can be found [here](https://github.com/jasonoh3/conspiracy-data-structure#test-strategy). Based on this test suite, we know that our algorithms work as intended because we passed all of our tests. 
 #### Output
-We had a complete run of each of our coded algorithms on the 3,000 subgraphs and exported the results to a [csv file](https://github-dev.cs.illinois.edu/cs225-fa21/cbrunner-ethanbg2-jasonoh3-aorals2/blob/main/wico_graph_results.csv). Our complete run of all the algorithms was done through a [helper class](https://github-dev.cs.illinois.edu/cs225-fa21/cbrunner-ethanbg2-jasonoh3-aorals2/blob/main/src/AnalyzeGraphs.h). None of the algorithms on any subgraphs gave us any errors when we exported the results. 
+We had a complete run of each of our coded algorithms on the 3,000 subgraphs and exported the results to a [csv file](https://github.com/jasonoh3/conspiracy-data-structure/blob/main/wico_graph_results.csv). Our complete run of all the algorithms was done through a [helper class](https://github.com/jasonoh3/conspiracy-data-structure/blob/main/src/AnalyzeGraphs.h). None of the algorithms on any subgraphs gave us any errors when we exported the results. 
 ### Discoveries About The Dataset
-We analyzed the results from the [csv file](https://github-dev.cs.illinois.edu/cs225-fa21/cbrunner-ethanbg2-jasonoh3-aorals2/blob/main/wico_graph_results.csv) output described above, using a [Jupyter Notebook](https://github-dev.cs.illinois.edu/cs225-fa21/cbrunner-ethanbg2-jasonoh3-aorals2/blob/main/data/analyze_results.ipynb) in Python to see if we made any discoveries about the dataset.
+We analyzed the results from the [csv file](https://github.com/jasonoh3/conspiracy-data-structure/blob/main/wico_graph_results.csv) output described above, using a [Jupyter Notebook](https://github.com/jasonoh3/conspiracy-data-structure/blob/main/data/analyze_results.ipynb) in Python to see if we made any discoveries about the dataset.
 #### Strongly Connected Components 
 To answer our leading question: _What is the difference in the social structure of groups who spread misinformation vs. non-misinformation?_
 We extracted the number of strongly connected components for each subgraph. We then took the number of strongly connected components in each graph divided by the number of nodes in each graph to eliminate any effects where the number of nodes skewed the number of connected components. We then compared the average of this measure between misinformation and non-misinformation graphs, producing the plot below:
